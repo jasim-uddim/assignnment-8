@@ -1,0 +1,9 @@
+.selected {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.selected img {
+  width: 15%;
+  height: 20%;
+}

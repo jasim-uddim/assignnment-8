@@ -1,0 +1,32 @@
+.frize-container {
+  height: 450px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  background-color: white;
+}
+
+.frize-container img {
+  width: 100%;
+  height: 300px;
+}
+.frize-container .btn {
+  width: 100%;
+  background-color: gray;
+  border: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frize-container .btn:hover {
+  background-color: rgb(236, 170, 46);
+  color: white;
+}
+.frize-container .btn p {
+  margin-right: 10px;
+  font-size: 20px;
+}
